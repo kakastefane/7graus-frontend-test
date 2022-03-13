@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 3rem auto;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.loadmore-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #00f798;
+  border-radius: 1.5rem;
+  border: none;
+  color: #141a29;
+  font-weight: bold;
+}

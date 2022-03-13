@@ -1,18 +1,18 @@
-import React from "react";
+import './styles.scss';
 
-// import { Container } from './styles';
-
-function User(props) {
+function User({user}) {
+  const fullName = `${user.name.first} ${user.name.last}`;
   return (
     <div className="user">
-      <img className="user__image" src={props.picture} alt="" />
+      <img className="user__image" src={user.picture.large} alt="" />
       <div className="user__info">
         <h3 className="user__name">
-          {props.firstName} {props.lastName}
+          {fullName}
         </h3>
-        <span className="user__email">{props.email}</span>
+        <span className="user__location">{user.location.country}</span>
       </div>
     </div>
   );
 }
+
 export default User;

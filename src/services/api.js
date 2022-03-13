@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const api = axios.create({
+export const api = axios.create({
   baseURL: "https://randomuser.me/",
+  timeout: 2000, //2 seconds
 });
-
-export default api;
