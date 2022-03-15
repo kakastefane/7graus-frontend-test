@@ -4,9 +4,9 @@ import { User, UserPlaceholder } from '../../components/User';
 import './styles.scss';
 
 function ListUsers({ getData }) {
-  const [page, setPage] = useState(1)
-  const [users, setUsers] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [page, setPage] = useState(1) // for pagination of users list
+  const [users, setUsers] = useState([]); // users list
+  const [loading, setLoading] = useState(false); // loading state
 
   const usersPlaceholder = [...Array(10)]; //only for generate 10 placeholders on load.
 
