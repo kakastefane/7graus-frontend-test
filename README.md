@@ -22,9 +22,9 @@ Projeto desenvolvido por mim para a empresa [7Graus](https://www.7graus.com/) co
 - [x] Com os dados que retornam desta api ‘https://randomuser.me/api/’ mostra na view uma grid com 10 users (masculinos OU femininos) com o nome, e imagem.
 - [x] Adiciona um botão à view e no click mostra mais 10 resultados.
 - [x] O carregamento deverá ter um loading de 2 segundos.
-- [ ] Elabora uma classe de testes unitários para validar o load de mais pessoas.
+- [ ] ~~Elabora uma classe de testes unitários para validar o load de mais pessoas.~~
 
-Observações: Infelizmente não consegui implementar os testes nesta tarefa, porque estou iniciando o estudo de testes no momento.
+Infelizmente não consegui implementar os testes neste projeto, porque estou iniciando o estudo de testes no momento e ainda não estou capacitado para fazer este teste especificamente.
 
 ## Como Rodar o Projeto
 
